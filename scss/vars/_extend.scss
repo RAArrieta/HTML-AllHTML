@@ -1,9 +1,12 @@
 %titulos {
     background-color: $clr-fnd-tit;
-    height: $sz-tit*2;
+    border-top: 3px solid $clr-brd;
+    border-bottom: 3px solid $clr-brd; 
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-family: $fnt-ppl;
+    font-size: $sz-tit;
 }
 
 %margin-t-b {

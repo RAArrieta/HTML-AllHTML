@@ -5,3 +5,7 @@
     text-decoration: none;
     background-color: $clr-fnd;
 }
+
+.titulos {
+    @extend %titulos;
+}

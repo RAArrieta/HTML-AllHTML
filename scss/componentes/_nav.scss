@@ -1,5 +1,9 @@
 .nav {
-    @extend %titulos;
+    background-color: $clr-fnd-tit;
+    height: $sz-tit*2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     @extend %margin-t-b;
     a {
         background-color: $clr-fnd-tit;
@@ -7,4 +11,8 @@
         font-size: $sz-tit;
         color: $clr-tit;
     }
-}
+}/*
+.nav-mine {
+    background-color: $clr-fnd-tit;
+    font-family: $fnt-ppl;
+}*/

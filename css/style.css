@@ -1,12 +1,15 @@
-.nav {
+.titulos {
   background-color: white;
-  height: 50px;
+  border-top: 3px solid rgb(84, 23, 189);
+  border-bottom: 3px solid rgb(84, 23, 189);
   display: flex;
   justify-content: space-around;
   align-items: center;
+  font-family: "Exo 2", sans-serif;
+  font-size: 25px;
 }
 
-.nav, header {
+.nav {
   margin-top: 8px;
   margin-bottom: 8px;
 }
@@ -16,10 +19,11 @@
   margin: 0;
   list-style-type: none;
   text-decoration: none;
-  background-color: rgb(238, 172, 129);
+  background-color: rgb(245, 217, 198);
 }
 
 header {
+  margin-top: 15px;
   font-family: "Exo 2", sans-serif;
   font-size: 50px;
   display: flex;
@@ -27,11 +31,24 @@ header {
   column-gap: 50px;
 }
 
+.nav {
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 .nav a {
   background-color: white;
   font-family: "Exo 2", sans-serif;
   font-size: 25px;
   color: rgb(21, 13, 36);
 }
+
+/*
+.nav-mine {
+    background-color: $clr-fnd-tit;
+    font-family: $fnt-ppl;
+}*/
 
 /*# sourceMappingURL=style.css.map */
