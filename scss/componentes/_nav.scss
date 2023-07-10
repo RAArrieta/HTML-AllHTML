@@ -1,0 +1,10 @@
+.nav {
+    @extend %titulos;
+    @extend %margin-t-b;
+    a {
+        background-color: $clr-fnd-tit;
+        font-family: $fnt-ppl;
+        font-size: $sz-tit;
+        color: $clr-tit;
+    }
+}

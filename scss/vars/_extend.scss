@@ -1,0 +1,12 @@
+%titulos {
+    background-color: $clr-fnd-tit;
+    height: $sz-tit*2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+%margin-t-b {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}

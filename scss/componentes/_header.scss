@@ -1,0 +1,8 @@
+header {
+    @extend %margin-t-b;
+    font-family: $fnt-ppl;
+    font-size: $sz-tit*2;
+    display: flex;
+    justify-content: center;
+    column-gap: 50px;
+}
