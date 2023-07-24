@@ -1,9 +1,11 @@
 header {
     margin-top: 15px;
-    
-    font-family: $fnt-ppl;
-    font-size: $sz-tit*2;
     display: flex;
     justify-content: center;
     column-gap: 50px;
+    h1 {
+        font-family: $fnt-ppl;
+        font-size: $sz-tit*4;
+        font-weight: bold;
+    }
 }

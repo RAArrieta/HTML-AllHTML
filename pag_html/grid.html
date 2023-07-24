@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/fav_html.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>All HTML | Grid</title>
+</head>
+<body>
+    <header>
+        <img src="../img/fav_html.png" alt="Logo Html">
+        <h1>ALL HTML</h1>
+    </header>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid nav-mine">
+            <a class="navbar-brand nav-mine" href="#">Full Stack</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon nav-mine"></span>
+            </button>
+            <div class="collapse navbar-collapse nav-mine" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-mine" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        HTML
+                        </a>
+                        <ul class="dropdown-menu nav-mine">
+                            <li><a class="dropdown-item nav-mine" href="../index.html">Home</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./basicoh.html">Básico</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./boostrap.html">Bootstrap</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./flex.html">FlexBoox</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./grid.html">Grid</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./pseudo.html">Pseudo Clases</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./sass.html">Sass</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./github.html">GitHub</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./animacion.html">Animación</a></li>
+                            <li><a class="dropdown-item nav-mine" href="./seo.html">Seo</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle nav-mine" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        JAVA SCRIPT
+                        </a>
+                        <ul class="dropdown-menu nav-mine">
+                            <li><a class="dropdown-item nav-mine" href="./basico.html">Básico</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <h1 class="titulos">GRID</h1>
+
+    <main>
+        <section class="grid1">
+        <div class="img1"><img src="../img/cats/cat1.jpg" alt="cat1"></div>
+            <div class="p1"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi doloremque voluptatum nam vitae? Corrupti, harum.</p></div>
+            <div class="img2"><img src="../img/cats/cat10.jpg" alt="cat10"></div>
+            <div class="img3"><img src="../img/dogs/dog9.jpg" alt="dog1"></div>
+            <div class="p2"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, facere.</p></div>
+            <div class="img4"><img src="../img/dogs/dog1.jpg" alt="dog9"></div>
+            <div class="img5"><img src="../img/psj/psj1.jpg" alt="ps1"></div>
+        </section>
+        <article class="articulo">
+            <h2>Para acomodar el contenido de cada uno utilizamos:</h2>
+            <p><br>JUSTIFY: ordena en forma horizontal</p>
+            <p>ALIGN: ordena en forma vertical</p>
+            <p>CONTENT: para los contenedores</p>
+            <p>ITEM: para los hijos junto a su fondo</p>
+            <p>SELF: acomoda el hijo individualmente</p>
+            <p><br>GAP: separacion entre contenedores</p>
+            <h2><br>El tamaño de filas y/o col se puede hacer en</h2>
+            <p><br>PIXELES: queda fijo y es molesto para las distintas pantallas</p>
+            <p>PORCENTAJE: mejora pero no tengo buen manejo de la altura</p>
+            <p>FRACCION: lo recomendado, se acomoda al ancho de la pantalla</p>
+            <h2><br>Funciones</h2>
+            <p><br>PUNTO: "." permite un area vacia, ej centro</p>
+            <p>OBJET-FIT: cover / width: 100% / height: 100%, la imagen toma el tamaño del contenedor (no texto). Ojo la altura de la imagen</p>
+            <p><br>GRID TEMPLATE: repeat (3,1fr) / repeat (3,1fr) resume primero colocando las filas y despues las columnas</p>
+            <p>REPEAT (3, 1FR): repite 3 veces 1fr</p>
+            <p>PLACE-CONTENT: center center resume justify y align content</p>
+        </article>
+        
+        
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

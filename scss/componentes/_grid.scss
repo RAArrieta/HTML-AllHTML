@@ -1,0 +1,62 @@
+.img1 {
+    background-color: aqua;
+    grid-area: img1;
+    img {
+        object-fit: cover;
+        width:100%;
+        height:100%;
+    }
+}
+.img2 {
+    background-color: rgb(193, 238, 238);
+    grid-area: img2;
+}
+.img3 {
+    background-color: rgb(24, 65, 65);
+    grid-area: img3;
+    
+}
+.img4 {
+    background-color: rgb(141, 143, 143);
+    grid-area: img4;
+    justify-self: end;
+    align-self: center;
+}
+.img5 {
+    background-color: rgb(29, 99, 99);
+    grid-area: img5;
+    img {
+        object-fit: cover;
+        width:100%;
+        height:100%;
+    }
+}
+.p1 {
+    background-color: rgb(230, 99, 219);
+    grid-area: p1; 
+    font-family: $fnt-ppl; 
+    font-size: $sz-tit;
+}
+.p2 {
+    background-color: rgb(96, 57, 168);
+    grid-area: p2;   
+    font-family: $fnt-ppl; 
+    font-size: $sz-tit; 
+}
+
+.grid1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    grid-template-areas: 
+    "img1 p1 img2"
+    "img3 p2 img4"
+    "img5 img5 img5"
+    ;
+    border: 1px solid black;
+    padding: 10px;
+    gap: 10px;
+}
+
+

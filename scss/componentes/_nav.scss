@@ -1,18 +1,17 @@
-.nav {
-    background-color: $clr-fnd-tit;
-    height: $sz-tit*2;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    @extend %margin-t-b;
-    a {
-        background-color: $clr-fnd-tit;
-        font-family: $fnt-ppl;
-        font-size: $sz-tit;
-        color: $clr-tit;
-    }
-}/*
 .nav-mine {
     background-color: $clr-fnd-tit;
     font-family: $fnt-ppl;
-}*/
+    padding-left: 5px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-left: 15px;
+}
+
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header div h1 {
+    font-size: $sz-tit*4;
+}

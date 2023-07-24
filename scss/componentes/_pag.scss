@@ -9,3 +9,16 @@
 .titulos {
     @extend %titulos;
 }
+
+.articulo {
+    margin: 15px;
+    padding: 20px;
+    border: 1px solid black;
+    background-color: white;
+    h2 {
+        background-color: white;
+    }
+    p {
+        background-color: white;
+    }
+}
